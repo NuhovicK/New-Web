@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background: #f4f4f3;
+}
+header {
+  background: #e3e3e3;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 97%;
+  height: 60px;
+  display: flex;
+}
+
+
+
+
+.desni{
+    width: 33%;
+    height: 60px;
+    display: flex;
+}
+
+.desni img{
+    height: 60px;
+    width: 60px;
+}
+
+.sredina{
+    width: 33%;
+    height: 60px;
+    
+}
+
+.sredina a{
+    text-decoration: none;
+    color: gray;
+    margin: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.levi{
+    width: 33%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background: transparent;
+}
+
+.levi .search-input{
+    width: 100%;
+    padding: 8px 44px 8px 12px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #cfcfcf;
+    font-size: 16px;
+    outline: none;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.levi .material-symbols-outlined{
+    position: absolute;
+    right: 32px;
+    color: #6b6b6b;
+    font-size: 22px;
+    pointer-events: none;
+}
+
+.levi .search-input:focus{
+    box-shadow: 0 0 0 3px rgba(100,150,255,0.12);
+    border-color: #85a8ff;
+}
+
