@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     background: #f4f4f3;
@@ -45,6 +44,11 @@ header {
     line-height: 60px;
 }
 
+.sredina a:hover {
+    color: rgb(73, 73, 73);
+    font-weight: italic;
+}
+
 .levi {
     width: 33%;
     height: 60px;
@@ -67,7 +71,7 @@ header {
     box-sizing: border-box;
 }
 
-.levi .material-symbols-outlined {
+.levi .fa-magnifying-glass {
     position: absolute;
     right: 32px;
     color: #6b6b6b;
@@ -88,51 +92,58 @@ main {
 
 }
 
+
 .gornji {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
     width: 100%;
-    height: 80px;
-    background: #9a9b9c;
-    color: black;
-    display: flex;
-
+    height: 170px;
+    margin: 40px 0 30px 0;
+    gap: 0;
 }
 
-.glevi{
-    width: 33%;
-    height: 80px;
+
+.gornji > div {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 32px 24px 24px 24px;
+    width: 33.33%;
+    min-width: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
     display: flex;
-    margin-left: 50px;
     flex-direction: column;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.glevi p{
+
+.gornji i {
+    color: #4a90e2;
+    font-size: 36px;
+    margin-bottom: 12px;
+    margin-right: 0;
+    display: block;
+}
+
+
+
+
+.glevi,
+.gmid,
+.gdesni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 0;
 }
 
 
-.gmid{
-    width: 33%;
-    height: 80px;
-    margin-left: 50px;
-    flex-direction: column;
-
-}
-.gmid p{
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-.gdesni{
-    width: 33%;
-    height: 80px;
-    margin-left: 50px;
-    flex-direction: column;
-}
-.gdesni p{
-    margin-top: 10px;
-    margin-bottom: 0;   
-}
 footer {
     width: 100%;
     height: 300px;

@@ -44,6 +44,12 @@ header {
     line-height: 60px;
 }
 
+.sredina a:hover {
+    color: rgb(73, 73, 73);
+    font-weight: italic;
+}
+
+
 .levi {
     width: 33%;
     height: 60px;
@@ -66,14 +72,13 @@ header {
     box-sizing: border-box;
 }
 
-.levi .material-symbols-outlined {
+.levi .fa-magnifying-glass{
     position: absolute;
     right: 32px;
     color: #6b6b6b;
     font-size: 22px;
     pointer-events: none;
 }
-
 .levi .search-input:focus {
     box-shadow: 0 0 0 3px rgba(100, 150, 255, 0.12);
     border-color: #85a8ff;
