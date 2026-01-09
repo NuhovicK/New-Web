@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    background: #e3e3e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 97%;
+    height: 60px;
+    display: flex;
+}
+
+
+
+
+.desni {
+    width: 33%;
+    height: 60px;
+    display: flex;
+}
+
+.desni img {
+    height: 60px;
+    width: 60px;
+}
+
+.sredina {
+    width: 33%;
+    height: 60px;
+
+}
+
+.sredina a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sredina a:hover {
+    color: rgb(73, 73, 73);
+    font-weight: italic;
+}
+
+
+.levi {
+    width: 33%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background: transparent;
+}
+
+.levi .search-input {
+    width: 100%;
+    padding: 8px 44px 8px 12px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #cfcfcf;
+    font-size: 16px;
+    outline: none;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.levi .fa-magnifying-glass{
+    position: absolute;
+    right: 32px;
+    color: #6b6b6b;
+    font-size: 22px;
+    pointer-events: none;
+}
+.levi .search-input:focus {
+    box-shadow: 0 0 0 3px rgba(100, 150, 255, 0.12);
+    border-color: #85a8ff;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background: #9a9b9c;
+}
+
+.left {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left img {
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.left a {
+    text-decoration: none;
+    margin-left: 200px;
+    gap: 10px;
+    color: black;
+}
+
+
+
+
+.mid {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mid h2 {
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.mid a {
+    text-decoration: none;
+    margin-left: 150px;
+    color: black;
+}
+
+.right {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right h2 {
+    font: 25px;
+    margin-left: 150px;
+    color: white;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+    margin-left: 150px;
+}
+
+main{
+    width: 100%;
+    height: 37vh;
+    background: gainsboro;
+}
